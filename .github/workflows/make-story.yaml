@@ -12,8 +12,8 @@ jobs:
       - name: Install packages
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
-        packages: |
-          github::bvreede/madlibs
+          packages: |
+            github::bvreede/madlibs
 
       - name: Check out repository
         uses: actions/checkout@v3
