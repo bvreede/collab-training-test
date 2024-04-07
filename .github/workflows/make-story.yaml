@@ -22,9 +22,9 @@ jobs:
         run: Rscript -e 'source("grocery_story.R")'
 
       - name: Commit results
-          run: |
-            git config --local user.email "actions@github.com"
-            git config --local user.name "GitHub Actions"
-            git add story.md
-            git commit -m 'update the story'
-            git push origin
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add story.md
+          git commit -m 'update the story'
+          git push origin
